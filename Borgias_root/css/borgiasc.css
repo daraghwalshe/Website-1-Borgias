@@ -1,0 +1,363 @@
+/*----------------------------------------------------------*/
+/*     Daragh Walshe        B00064428         Dec. 2012     */
+/*     Web. Dev. 1          website project-the borgias     */
+/*----------------------------------------------------------*/
+
+/**************************************************************************/
+/***********************  Applies to ALL Pages   **************************/
+
+body
+{
+   font-family :Quintessential,'Times New Roman','malgun gothic', serif;   
+   background-color:#c4c1c0;
+   color:#592E21;
+}
+
+h1      
+{
+   background-color:#B39BA5;
+   color: #45271E;
+   display: block;
+   font-size: 1.5em;
+   letter-spacing: 1.5em;
+   text-align: center;
+   border-bottom: 3px groove;
+   border-top: 3px groove;
+}
+
+hr
+{
+   clear: both;
+}
+/*********************************************************************************/
+/************************  Banner Picture   **************************************/
+.bannerbox
+{
+   display: block;
+}
+
+.bannerbox img
+{
+   width: 100%;
+   display: inline;
+   height: 8em;
+   text-align: center;
+   border: 3px inset;   
+}
+
+/********************************************************************************/
+/***************************  Main Navbar  **************************************/
+.navbar
+{
+   display: block;
+}
+
+#navlist a
+{
+   font-size: 1em;
+   display: block;
+   text-align: center;
+   width: 17%;
+   color: #45271E;
+   border: 2px outset;
+   border-color: #EEEEEE;											
+   padding: 2px;
+   margin: 4px;
+   text-decoration: none;
+   float: left;
+}
+
+#navlist a:hover
+{
+   border: 2px inset;
+   border-color: #EEEEEE;
+   background-color: silver;
+   text-decoration: none;
+}
+
+#navlist li
+{
+   list-style-type: none;
+   display: inline;
+}
+
+#navlist a#thispage
+{
+   background-color: #D45D6D;
+   border: 2px inset;
+   border-color: #EEEEEE;
+}
+
+#navlist a#parentpage
+{
+   background-color: #DBA9BD; 
+}
+
+/******************************************************************************/
+/***********************  Nav Buttons for Character Pages  ********************/
+#charlist a
+{
+   font-size: 1em;
+   display: block;
+   text-align: center;
+   width: 29.25%; 
+   color: #45271E;
+   border: 3px outset;
+   border-color: #EEEEEE;
+   padding-top: 2px;
+   padding-bottom: 2px;
+   margin-right: 3%;
+   text-decoration: none;
+   float: left;
+}
+
+#charlist li
+{
+   list-style-type: none;
+   display: inline;
+}
+
+#charlist a:hover
+{
+   border: 3px inset;
+   border-color: #EEEEEE;
+   background-color: silver;
+   text-decoration: none;
+}
+
+#charlist a#thispage
+{
+   background-color: #D45D6D;
+   border: inset;
+   border-color: #EEEEEE;
+}
+
+/**********************************************************************/
+/*************  Seasons 1 & 2 and Episode Pages  **********************/
+.floleft
+{
+   background-color:#B39BA5;
+   display: block;
+   padding: 2%;
+   margin-left: 3%;
+   margin-right: 3%;
+   float: left;
+   width: 29%;
+   border: 3px inset;
+   border-color: #EEEEEE;   
+}
+
+.floleft dt
+{
+   color: #912A52;
+   font-size: 1.2em;
+   font-style: italic;
+   letter-spacing: 0.2em;
+}
+
+#invisible
+{
+   color:#B39BA5 /****** invisible ink ! *******/
+}
+
+/*********************************************************************************/
+/*******************  Image Boxes for Seasons 1 & 2 and Episode pages  ***********/
+.centrebox img
+{
+   float: left;
+   width: 19%;
+}
+
+#deadhead
+{
+   border: 3px inset;
+}
+
+/************************************************************************/
+/*************************  Main Characters    **************************/
+.charleft
+{
+   display: block;
+   margin-top: 1em;
+   margin-left: 3%;  
+   float: left;
+   width: 28.5%;
+   border-style: inset;
+   background-color:#B39BA5;
+   border-color: #EEEEEE;
+}
+
+.charleft ul
+{
+   clear: both;
+}
+
+.charleft li 
+{
+   letter-spacing: 0.2em;
+   text-align: center;
+   list-style-type: none;
+}
+
+.pic
+{
+  width: 40%;
+  border: 3px inset;   /********************XXX******************************/
+  background-color:#B39BA5;
+}
+
+#battle
+{
+   width: 100%;
+   border: 3px inset;
+   margin-top: 2em;
+}   
+/*********************************************************************************/
+/******************************    summary page     ******************************/
+
+#summary
+{
+   display: block;
+   font-size: 1.2em;
+   margin-left: 10%;
+   margin-right: 10%;
+   border-bottom: 3px groove;
+}
+
+#crestpic
+{
+   float: right;
+   margin-left: 6em;
+   border: 3px inset;
+}
+/*****************************************************************************/
+/************    summary/seasons/episodes link styling    ***************/
+
+#link 
+{
+   background-color:#B39BA5;
+   color: #45271E;
+   display: block;
+   letter-spacing: 0.5em;
+   text-align: center;
+   border-bottom: 3px groove;
+   border-top: 3px groove;   
+}
+
+#link a
+{
+   color: #45271E;
+   text-decoration: none;   
+   font-size: 1.2em;
+}
+
+#link a:hover
+{
+   background-color: #D45D6D;
+   text-decoration: none;
+   border-color: #EEEEEE;
+}
+
+#link a#thispage
+{
+   background-color: #D45D6D;
+}
+/*********************************************************************************/
+/*******************   sitemap styling   ********************/
+
+#sitemap
+{
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+#sitenav
+{
+   display: block;
+   font-size: 1.2em; 
+}
+
+#sitenav a
+{
+   color: #45271E;
+   text-decoration: none;
+}
+
+#sitenav a:hover
+{
+   color: red;
+}
+
+#sitenav #thispagetoo 
+{
+   color: red;
+}
+/*********************************************************************************/
+/*******************  merchandise   ********************/
+
+.forsale
+{
+   display: inline;
+   float: left;
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-bottom: 2%;
+   border: 2px inset;
+}
+
+/*********************************************************************************/
+/****************  Home page  ***************************/
+#mainHome p,h2
+{
+   text-align: center;
+}
+
+#botBorder
+{
+   width: 100%;
+   background-color: black;
+   float: left;
+   display: block;
+}
+
+.bottomBorder
+{
+   width: 8%;
+   float: left;
+   margin-left: 4%;
+   margin-top: 4px;
+}
+
+#popepic
+{
+   float: right;
+   margin-left: 4em;
+   border: 3px inset;
+}
+
+#cardinals
+{
+   float: left;
+   margin-right: 4em;
+   border: 3px inset;
+}
+/*********************************************************************************/
+/****************  jeremy page  ***************************/
+
+#ironsPic
+{
+   width: 30%;
+   float: left;
+   margin-left: 3.5%;
+   margin-top: 2%;
+   border: 3px inset;
+}
+
+#textbox
+{
+   margin-top: 2%;
+   display: block;
+   width: 50%;
+   float: left;
+   padding-left: 2em;
+}
