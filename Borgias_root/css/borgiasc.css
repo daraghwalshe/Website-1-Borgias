@@ -11,6 +11,19 @@ body
    font-family :Quintessential,'Times New Roman','malgun gothic', serif;   
    background-color:#c4c1c0;
    color:#592E21;
+   border: 1px dotted white;
+   #display: block;
+   #background-color: black;
+}
+#displayArea{
+   border: 1px dotted red;
+   display: block;
+   #height: 100%;
+}
+
+.hide{
+   #display: none;
+	visibility: hidden;
 }
 
 h1      
@@ -230,7 +243,7 @@ hr
    margin-left: 6em;
    border: 3px inset;
 }
-/*****************************************************************************/
+/************************************************************************/
 /************    summary/seasons/episodes link styling    ***************/
 
 #link 
@@ -262,7 +275,7 @@ hr
 {
    background-color: #D45D6D;
 }
-/*********************************************************************************/
+/************************************************************/
 /*******************   sitemap styling   ********************/
 
 #sitemap
